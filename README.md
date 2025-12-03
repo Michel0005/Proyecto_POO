@@ -7,15 +7,17 @@ Al mismo tiempo poder gestionar informacion para tener un historial de mantenimi
   2. conductor
   3. viaje
   4. vehiculos
--proceso
+.
+- proceso
   1.asignar clases
   2. registrar de trabajo
   3. registrar primer mantenimiento
   4. segundo mantenimiento
--salidas
+.
+- salidas
   1.Actualizacion de KM
   2.Total de KM
   3.Notificar Mantenimiento
   4.Detalles del vehiculo
- 
+.
   
