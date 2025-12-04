@@ -1,6 +1,5 @@
 # Proyecto_POO
-El objetivo del proyecto es crear un sistema flexible donde diferentes tipos de automotores puedan heredar funcionalides comunes (como lo son los viajes).
-Al mismo tiempo poder gestionar informacion para tener un historial de mantenimiento o asignar un vehiculo a un conductor.
+El objetivo del proyecto es crear un sistema donde se gestione informacion para tener un historial de mantenimiento y viajes donde se agregan los KM a cierto vehiculo ocn fecha y que tipo de servicio se le hace a un vehiculo o asignar un vehiculo a un conductor. 
 
 -entradas
   1. Mantenimiento
