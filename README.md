@@ -29,4 +29,6 @@ compilar con: "g++ main.cpp -o main.exe"
 
 correr en linux: "/.main.exe"
 
-correr en windows: ".\main.exe"
+correr en windows: "./main.exe"
+
+correr en Ios. " g++ main.cpp -o main.o" y ./main.o
