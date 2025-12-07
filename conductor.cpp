@@ -1,3 +1,9 @@
+/** Este programa nos permite ver los conductores y sus vehiculos
+y sus historiales de mantenimiento el objetivo es poder mantener 
+un registro de uso. **/
+ // Autor: Andre Michel Salgado Hidalgo | A01714887
+ // Fecha:  7 de diciembre de 2025
+
 #include <iostream>
 #include <string>
 #include "automotor.cpp"
