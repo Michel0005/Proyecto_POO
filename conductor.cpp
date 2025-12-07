@@ -9,22 +9,44 @@ using namespace std;
 
 class Conductor {
 protected:
-    int km_conducidos_total;
+    int kmConducidosTotal;
 private:
-    int id_empleado; 
-    Automotor* vehiculo_asignado;
+    int idEmpleado; 
+    Automotor* vehiculoAsignado;
 
 public: 
     string nombre; 
 
+/** Constructor de la clase Conductor
+ *  id Identificador unico del conductor
+ * nom Nombre del conductor
+ * return no regresa valor  **/
+    
     Conductor(int id, string nom);
 
-    int getId (){
-        return id_empleado; 
+/** obtenemos el id del conductor **/
+/* no recibe parametros */
+/* regresa un valor entero (id del conductor) */
+    int getId ()
+    {
+        return idEmpleado; 
     }
-    int getKmTotales(){
-        return km_conducidos_total;
+
+/** obtenemos el kilometraje total conducido por el conductor **/
+/* no recibe parametros */
+/* regresa un valor entero (kilometraje total conducido) */
+    int getKmTotales()
+    {
+        return kmConducidosTotal;
     }
+
+/** asignamos un vehiculo al conductor **/
+/* vehiculo Puntero al vehiculo a asignar */
+/* No regresa valor */
     void asignarVehiculo(Automotor* vehiculo);
+
+/** registramos un trabajo realizado por el conductor **/
+/* km Kilometros recorridos en el trabajo */
+/* No regresa valor */
     void registrarTrabajo(int km);
 };
