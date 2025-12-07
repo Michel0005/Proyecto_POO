@@ -1,6 +1,7 @@
 /** conjunto de clases que se implementan en un sistema de gestion
 de mantenimiento de vehiculos donde registramos datos basicos como:
-el kilometraje y mantener un historial de mantenimiento **/
+el kilometraje y mantener un historial de mantenimiento
+del vehiculo de trabajo de nuestro personaje (James Sunderland) **/
 // Autor: Andre Michel Salgado Hidalgo | A01714887
 // Fecha:  7 de diciembre de 2025
 
