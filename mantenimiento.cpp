@@ -30,6 +30,9 @@ public:
 
 /** obtenemos los detalles del mantenimiento en formato de texto
  *  Una cadena con la fecha, kilometraje y descripcion **/
+/* no recibe parametros */
+/* regresa una cadena de texto con los detalles */
+
     string getDetalles() const {
         return "[ " + fecha + " ] KM:" + to_string(kilometrajeMantenimiento)
             + "  descripcion: " + descripcion;
